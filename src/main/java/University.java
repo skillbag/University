@@ -38,9 +38,17 @@ public class University {
         this.yearOfFoundation = yearOfFoundation;
     }
 
+    public StudyProfile getMainProfile() {
+        return mainProfile;
+    }
+
+    public void setMainProfile(StudyProfile mainProfile) {
+        this.mainProfile = mainProfile;
+    }
 
     @Override
     public String toString(){
-        return  getYearOfFoundation() + getShortName() + getFullName();
+        return  getId() + getFullName() + getShortName() + getYearOfFoundation() + getMainProfile();
     }
+
 }
