@@ -1,4 +1,3 @@
-
 public class University {
     String id;
     String fullName;
@@ -51,5 +50,4 @@ public class University {
     public String toString(){
         return  getId() + getFullName() + getShortName() + getYearOfFoundation() + getMainProfile();
     }
-
 }
