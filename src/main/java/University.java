@@ -1,8 +1,15 @@
+import com.google.gson.annotations.SerializedName;
+
 public class University {
+    @SerializedName("UniversityId")
     String id;
+    @SerializedName("UniversityName")
     String fullName;
+    @SerializedName("UniversityShortName")
     String shortName;
+    @SerializedName("Foundation")
     int yearOfFoundation;
+    @SerializedName("Profile")
     StudyProfile mainProfile;
 
 
